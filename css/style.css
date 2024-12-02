@@ -1,0 +1,142 @@
+
+        .main-box{
+            background: antiquewhite;
+            border-bottom: 2px solid;
+        }
+        .b{
+            background-color: #fff;
+            
+        }
+        .nav-home{
+          font-size: larger;
+          font-weight:500;
+          margin-left: 46%;
+          
+        }
+        nav ul li a:hover{
+          text-decoration: underline;
+        }
+        nav{
+          border-bottom: 2px solid;
+          position:sticky;
+          top:0px;
+        }
+        .box2-1h{
+          width: 50%;
+          margin: auto;
+          text-align: center;
+          font-size:x-larger;
+          font-weight: bolder;
+        }
+        .box2-1p{
+          margin: auto;
+          width: 30%;
+        }
+        @media (max-width:768px) {
+          .box2-1h,.box2-1p{
+            width: 90%;
+          }
+        }
+
+        .boxx{
+          width: 500px;
+        }
+        @media (width<=768px) {
+          .boxx{
+            width: fit-content;
+          }
+          
+        }
+        .box3{
+          margin-top: 100px;
+          display: flex;
+          justify-content: center;
+          gap: 20px;
+          min-width: 320px;
+        }
+        
+         
+        .box3-1{
+          display: flex;
+          border: 2px solid;
+          text-align: center;
+          justify-content:space-around;
+          text-align: center;
+         
+        }
+        .box3-2{
+          border: 2px solid;
+          display: flex;
+          justify-content: space-around;
+          text-align: center;
+        }
+        .box3-1 p,.box3-2 p{
+          width: 50%;
+          text-align: center;
+          font-weight: 500;
+
+        }
+        .box3sec{
+          margin-top: 20px;
+          display: flex;
+          justify-content: center;
+          gap: 20px;
+          min-width: 320px;
+        }
+        .last h3{
+         
+          margin: auto;
+          text-align: center;
+          margin-top: 5%;
+          font-weight: bold;
+        }
+        .lastbutton{
+          display: flex;
+          justify-content: center;
+          margin: auto;
+          margin-top: 2%;
+        }
+        .buttonn{
+          border: 2px solid;
+          padding: 9px;
+          font-weight: bold;
+        }
+        .buttonn:hover{
+          background-color: black;
+          color: white;
+        }
+        footer{
+          width: 100%;
+          margin-top: 4%;
+          color: white;
+          padding: 2%;
+        }
+        .p{
+          text-align: center;
+        }
+        .li ul{
+          justify-content: start;
+        }
+        .li ul li{
+          margin-left: 7px;
+          list-style-type: none;
+        }
+        @media (max-width:965px) {
+          .box3{
+           align-items: center;
+            flex-direction: column;
+          }
+          .box3sec{
+            align-items: center;
+            flex-direction: column;
+          }
+          @media (max-width:991px){
+            .img-box{
+              display: none;
+            }
+            .main-box{
+              justify-content: center;
+              padding-top: 0px;
+            }
+          }
+        }
